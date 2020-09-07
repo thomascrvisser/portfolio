@@ -1,13 +1,21 @@
+@font-face {
+  font-family: "FactionBlack";
+  src: local("FactionBlack"),
+    url(./fonts/FactionBlack-Personal.otf) format("otf");
+}
+@font-face {
+  font-family: "FactionOutline-Personal";
+  src: local("FactionOutline-Personal"),
+    url(./fonts/FactionOutline-Personal.otf) format("otf");
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "FactionBlack-Personal";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: "FactionBlack-Personal";
 }
